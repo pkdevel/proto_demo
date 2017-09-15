@@ -1,1 +1,2 @@
-protoc --include_imports --java_out=src/main/java src/main/resources/course.proto
+#!/bin/sh
+protoc --java_out=src/main/java $1
